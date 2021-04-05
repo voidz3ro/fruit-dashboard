@@ -1,0 +1,22 @@
+@import '../App/App.scss';
+
+.AppFooter {
+	position: fixed;
+	background-color: var(--dk-gray-600);
+	bottom: 0px;
+	width: 100%;
+	height: auto;
+	padding: 16px 16px;
+	color: var(--dk-gray-400);
+	z-index: 200;
+	transition: 0.3s padding-left;
+
+	&--nav-open {
+		padding-left: calc(var(--sidebar-width) + 16px);
+	}
+
+	&__links {
+		display: flex;
+		flex-direction: row;
+	}
+}

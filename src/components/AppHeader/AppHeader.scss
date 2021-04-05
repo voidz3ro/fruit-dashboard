@@ -1,0 +1,27 @@
+@import '../App/App.scss';
+
+.AppHeader {
+	height: 56px;
+	background-color: var(--dk-gray-600);
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	border-bottom: 1px solid var(--dk-gray-500);
+
+	&__avatar {
+		margin-left: 16px;
+		margin-right: 16px;
+		height: 48px;
+		width: 48px;
+		border-radius: 50%;
+		background-color: var(--dk-gray-700);
+	}
+
+	&__nav-toggle {
+		margin-right: 16px;
+		height: 24px;
+		width: 24px;
+		cursor: pointer;
+	}
+}

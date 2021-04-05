@@ -1,0 +1,12 @@
+@import '../App/App.scss';
+
+.AppMain {
+	margin: 0px 0px;
+	transition: 0.3s margin-left;
+	padding: 16px 16px;
+	color: var(--dk-gray-400);
+
+	&--nav-open {
+		margin-left: var(--sidebar-width);
+	}
+}
