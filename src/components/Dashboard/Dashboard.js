@@ -67,8 +67,6 @@ const Dashboard = () => {
 			.enter()
 			.append('rect')
 			.on('mouseover', function (event, d) {
-				console.log(d.data.group);
-
 				d3.select('#tooltip')
 					.style('left', `${event.pageX}px`)
 					.style('top', `${event.pageY}px`)
