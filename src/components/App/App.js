@@ -17,7 +17,7 @@ function App() {
 			<div className='App'>
 				<AppHeader toggleSideNav={toggleSideNav} />
 				<SideNav isOpen={sideNavOpen} />
-				<AppMain sideNavOpen={sideNavOpen} />}
+				<AppMain sideNavOpen={sideNavOpen} />
 				<AppFooter sideNavOpen={sideNavOpen} />
 			</div>
 		</BrowserRouter>
